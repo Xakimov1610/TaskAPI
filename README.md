@@ -16,7 +16,7 @@ After each task, build the solution and write a commit
         ```  ✅
         
     - add DbContext to services  ✅
-- create migrations and update DB
+- create migrations and update DB  ✅
 
 # Level 1
 
