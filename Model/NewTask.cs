@@ -29,5 +29,9 @@ namespace tasks.Model
 
         public string Url { get; set; }
 
+        internal object ToTaskEntity()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

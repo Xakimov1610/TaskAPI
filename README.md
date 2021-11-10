@@ -22,8 +22,8 @@ After each task, build the solution and write a commit
 
 In this task, you will configure the controllers
 
-- Create a controller `TasksController`
-    - route `/tasks`
+- Create a controller `TasksController` ✅
+    - route `/tasks` ✅
 - inject DbContext and Logger
     - _context
     - _logger
