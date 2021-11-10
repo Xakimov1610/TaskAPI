@@ -51,7 +51,6 @@
 /Users/xakimov/Task/obj/Debug/net5.0/staticwebassets/Task.StaticWebAssets.xml
 /Users/xakimov/Task/obj/Debug/net5.0/scopedcss/bundle/Task.styles.css
 /Users/xakimov/Task/obj/Debug/net5.0/Task.RazorTargetAssemblyInfo.cache
-/Users/xakimov/Task/obj/Debug/net5.0/Task.csproj.CopyComplete
 /Users/xakimov/Task/obj/Debug/net5.0/Task.dll
 /Users/xakimov/Task/obj/Debug/net5.0/ref/Task.dll
 /Users/xakimov/Task/obj/Debug/net5.0/Task.pdb
