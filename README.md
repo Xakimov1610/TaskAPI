@@ -24,7 +24,7 @@ In this task, you will configure the controllers
 
 - Create a controller `TasksController` ✅
     - route `/tasks` ✅
-- inject DbContext and Logger
+- inject DbContext and Logger ✅
     - _context
     - _logger
 - create IStorageService
