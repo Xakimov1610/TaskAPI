@@ -58,10 +58,10 @@ In this task, you will configure the controllers
         - 200 (Ok) and return Tasks in the body as JSON ✅
         - 404(NotFound) when no Task found for given Query ✅
   
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.04.png)
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.53.png)
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.02.png)
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.12.png)
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.22.png)
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.31.png)
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.38.png)
+  ![Step1](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.04.png)
+  ![Step2](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.53.png)
+  ![Step3](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.02.png)
+  ![Step4](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.12.png)
+  ![Step5](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.22.png)
+  ![Step6](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.31.png)
+  ![Step7](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.38.png)
