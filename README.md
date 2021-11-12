@@ -45,7 +45,7 @@ In this task, you will configure the controllers
 # Level 2
 
 - create these models under `Models` folder ✅
-    - `Task.cs` model ✅
+    - `Task.cs` model ✅s 
     - `TaskQuery.cs` model ✅
 - create model mappers
     - map Task entity → Task model when returning to user ✅
@@ -57,3 +57,5 @@ In this task, you will configure the controllers
     - produces response Codes: ✅
         - 200 (Ok) and return Tasks in the body as JSON ✅
         - 404(NotFound) when no Task found for given Query ✅
+  
+  ![](Screen Shot 2021-11-12 at 19.37.04.png)
