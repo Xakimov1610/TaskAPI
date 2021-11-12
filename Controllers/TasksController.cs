@@ -1,14 +1,16 @@
+using System.Linq;
 using System.Net;
 using System.Net.Mime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using tasks.Model;
-using tasks.Services;
+using Task.Mapper;
+using Task.Model;
+using Task.Services;
 
-namespace tasks.Controller
+namespace Task.Controllers
 {
-        [ApiController]
+    [ApiController]
     [Route("[controller]")]
     public class TasksController : ControllerBase
     {
@@ -48,6 +50,20 @@ namespace tasks.Controller
             }
 
             return NotFound("No tasks exist!");
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateTaskAsync([FromBody]UpdatedTask updatedTask)
+        {
+            var entity = updatedTask.ToTaskEntity();
+            var updateResult = await _storage.UpdateTaskAsync(entity);
+
+            if(updateResult.isSuccess)
+            {
+                return Ok();
+            }
+
+            return BadRequest(updateResult.exception.Message);
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Task.Entities;
 
-namespace tasks.Services
+namespace Task.Services
 {
     public interface IStorageService
     {
@@ -21,5 +21,9 @@ namespace tasks.Services
             DateTimeOffset atATime = default(DateTimeOffset),
             string location = default(string),
             string url = default(string));
+
+        Task<(bool isSuccess, Exception exception)> UpdateTaskAsync(Entities.Task task);
+
+        Task<(bool isSuccess, Exception exception)> DelateTaskAsync(Entities.Task task);
     }
 }

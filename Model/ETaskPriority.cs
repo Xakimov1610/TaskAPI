@@ -1,4 +1,4 @@
-namespace tasks.Model
+namespace Task.Model
 {
     public enum ETaskPriority
     {
