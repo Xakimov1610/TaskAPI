@@ -59,3 +59,9 @@ In this task, you will configure the controllers
         - 404(NotFound) when no Task found for given Query ✅
   
   ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.04.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.53.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.02.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.12.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.38.22.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.31.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.38.png)
