@@ -19,9 +19,19 @@ namespace Task.Services
             _logger = logger;
         }
 
-        public Task<(bool isSuccess, Exception exception)> DelateTaskAsync(Entities.Task task)
+        public async Task<(bool isSuccess, Exception exception)> DelateTaskAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try{
+                _context.Tasks.Remove(_context.Tasks.FirstOrDefault(u => u.Id == id));
+                await _context.SaveChangesAsync();
+
+                return(true, null);
+            }
+
+            catch(Exception e)
+            {
+                return (false, e);
+            }
         }
 
         public async Task<List<Entities.Task>> GetTasksAsync(

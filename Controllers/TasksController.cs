@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using System.Net;
 using System.Net.Mime;
@@ -65,5 +66,22 @@ namespace Task.Controllers
 
             return BadRequest(updateResult.exception.Message);
         }
+
+        [HttpDelete]
+        [Route("{Id}")]
+        public async Task<IActionResult> DelateTaskAsync([FromRoute]Guid Id)
+        {
+            
+            var DelateId = await _storage.DelateTaskAsync(Id);
+
+            if(DelateId.isSuccess)
+            {
+                return Ok();
+            }
+
+            return NotFound(DelateId.exception.Message);
+        }
+
+
     }
 }
