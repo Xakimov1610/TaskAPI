@@ -58,4 +58,4 @@ In this task, you will configure the controllers
         - 200 (Ok) and return Tasks in the body as JSON ✅
         - 404(NotFound) when no Task found for given Query ✅
   
-  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.04.pngImages/Screen Shot 2021-11-12 at 19.37.04.png)
+  ![](../Task/Images/Screen%20Shot%202021-11-12%20at%2019.37.04.png)
