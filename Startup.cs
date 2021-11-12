@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Task.Services;
 
 namespace Task
 {
@@ -31,6 +32,7 @@ namespace Task
                 options.UseSqlServer(Configuration.GetConnectionString("TaskConnection")));
 
             services.AddControllers();
+            services.AddTransient<IStorageService, DbStorageService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Task", Version = "v1" });
